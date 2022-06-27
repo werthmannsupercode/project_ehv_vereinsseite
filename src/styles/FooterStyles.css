@@ -32,6 +32,18 @@ footer ul li a {
     padding: 0 1vw 2vh 1vw;
 }
 
-footer ul li a:hover {
-    color: rgb(108, 118, 89);
+footer ul li a:after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(31, 41, 13);
+    transition-duration: .5s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+footer ul li a:hover:after {
+    width: 100%;
 }

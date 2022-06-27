@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15vh 8vw;
+    padding: 17vh 8vw;
     gap: 5vw;
 }
 
@@ -13,13 +13,13 @@
 
 .aktivWerden div h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 7rem;
+    font-size: 6rem;
     /* padding: 35vh 0 0 10vw; */
 }
 
 .aktivWerden div h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 1vh 0 2vh 0;
     font-weight: 300;
 }

@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faNewspaper } from '@fortawesome/free-solid-svg-icons';
 import './../styles/SidebarStyles.css';
 
 const Sidebar = () => {
     return (
         <aside>
             <a href={"https://www.facebook.com/EigenheimerWaigolshausenTheilheim"}><FontAwesomeIcon icon={faFacebook} /></a>
-            <Link to="#"><FontAwesomeIcon icon={faWhatsapp} /></Link>
+            <Link to="#"><FontAwesomeIcon icon={faNewspaper} /></Link>
         </aside>
     );
 }
